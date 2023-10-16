@@ -1,0 +1,31 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* **common** */
+
+.row {
+  display: flex;
+}
+
+/* **common** */
+
+/****** header ******/
+
+.navbar {
+  background-color: #0084fd;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar i {
+  color: white;
+  font-size: 30px;
+}
+
+/****** /header ******/
