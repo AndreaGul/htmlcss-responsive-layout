@@ -23,7 +23,7 @@
   padding: 15px 30px;
 }
 
-.navbar i {
+.navbar .hamburger {
   color: white;
   font-size: 30px;
 }
@@ -33,7 +33,7 @@
 /* ** media header ** */
 
 @media screen and (min-width: 992px) {
-  .navbar i {
+  .navbar .hamburger {
     display: none;
   }
   .navbar .links-button {
