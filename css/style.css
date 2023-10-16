@@ -20,6 +20,11 @@
   display: flex;
 }
 
+.container {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 /* **common** */
 
 /****** header ******/
@@ -81,8 +86,6 @@
 /* * section testimonial* */
 
 .container-testimonial {
-  flex-wrap: wrap;
-  gap: 30px;
   padding: 70px 30px 112px 30px;
 }
 
@@ -91,6 +94,19 @@
 }
 
 /* * /section testimonial* */
+
+/* * section benefits */
+
+.container-benefits {
+  background-color: var(--bg-box-purple);
+  padding: 70px 30px;
+}
+
+.titolo-benefits {
+  text-align: center;
+}
+
+/* * /section benefits */
 
 /* **** /main **** */
 
@@ -123,12 +139,24 @@
   .container-presentazione .box1 {
     width: calc((var(--default-box-width) * 2 + 25px));
   }
+
+  /* * section benefits */
+  .container-benefits .box {
+    width: calc((100% - 30px) / 2);
+  }
+  /* * /section benefits */
 }
 
 @media screen and (min-width: 768px) {
   .container-presentazione .box1 {
     display: flex;
   }
+
+  /* * section benefits */
+  .container-benefits .box {
+    width: calc((100% - 60px) / 3);
+  }
+  /* * /section benefits */
 }
 /* * /presentazione */
 
@@ -153,4 +181,9 @@
   }
 }
 /* * section testionials */
+
+/* * section benefits */
+
+/* * /section benefits */
+
 /* ** /media main ** */
