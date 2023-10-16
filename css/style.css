@@ -10,6 +10,8 @@
 :root {
   --default-color-white: #ffffff;
   --bg-box-blu: #b5ddff;
+  --bg-box-white: #ffffff;
+  --bg-box-purple: #9792e4;
   --default-box-width: calc((100% - 50px) / 3);
 }
 /* **common** */
@@ -70,7 +72,26 @@
   gap: 30px;
 }
 
+.color-white {
+  background-color: var(--bg-box-white);
+}
+
 /* * /box planning* */
+
+/* * section testimonial* */
+
+.container-testimonial {
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 70px 30px 112px 30px;
+}
+
+.color-purple {
+  background-color: var(--bg-box-purple);
+}
+
+/* * /section testimonial* */
+
 /* **** /main **** */
 
 /* ** media header ** */
@@ -93,7 +114,7 @@
 /* ** /media header ** */
 
 /* ** media main ** */
-/* presentazione */
+/* *presentazione */
 @media screen and (min-width: 576px) {
   .container-presentazione .box {
     width: var(--default-box-width);
@@ -109,9 +130,9 @@
     display: flex;
   }
 }
-/* presentazione */
+/* * /presentazione */
 
-/* planning */
+/* *planning */
 @media screen and (max-width: 768px) {
   .container-planning {
     flex-wrap: wrap;
@@ -123,5 +144,13 @@
     padding: 130px 130px 60px 130px;
   }
 }
-/* planning */
+/* * /planning */
+
+/* * section testionials */
+@media screen and (min-width: 576px) {
+  .container-testimonial .color-purple {
+    display: flex;
+  }
+}
+/* * section testionials */
 /* ** /media main ** */
