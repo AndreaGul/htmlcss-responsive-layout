@@ -108,6 +108,14 @@
 
 /* * /section benefits */
 
+/* * section about us */
+
+.container-aboutus {
+  padding: 90px 30px 80px 30px;
+}
+
+/* * /section about us */
+
 /* **** /main **** */
 
 /* ** media header ** */
@@ -130,8 +138,9 @@
 /* ** /media header ** */
 
 /* ** media main ** */
-/* *presentazione */
+
 @media screen and (min-width: 576px) {
+  /* *presentazione */
   .container-presentazione .box {
     width: var(--default-box-width);
   }
@@ -139,18 +148,27 @@
   .container-presentazione .box1 {
     width: calc((var(--default-box-width) * 2 + 25px));
   }
+  /* * /presentazione */
 
   /* * section benefits */
   .container-benefits .box {
     width: calc((100% - 30px) / 2);
   }
   /* * /section benefits */
+
+  /* *section about us */
+  .container-aboutus {
+    display: flex;
+  }
+  /* * /section about us */
 }
 
 @media screen and (min-width: 768px) {
+  /* * presentazione */
   .container-presentazione .box1 {
     display: flex;
   }
+  /* * /presentazione */
 
   /* * section benefits */
   .container-benefits .box {
