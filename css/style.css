@@ -29,3 +29,22 @@
 }
 
 /****** /header ******/
+
+/* ** media header ** */
+
+@media screen and (min-width: 992px) {
+  .navbar i {
+    display: none;
+  }
+  .navbar .links-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .links-button {
+    display: none;
+  }
+}
+
+/* ** /media header ** */
