@@ -16,6 +16,11 @@
 }
 /* **common** */
 
+/* .container-max{
+  width: 992px;
+} 
+da implentare*/
+
 .row {
   display: flex;
 }
@@ -23,6 +28,20 @@
 .container {
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.color-blu {
+  background-color: var(--bg-box-blu);
+}
+.color-white {
+  background-color: var(--bg-box-white);
+}
+.color-purple {
+  background-color: var(--bg-box-purple);
+}
+
+.txt-center {
+  text-align: center;
 }
 
 /* **common** */
@@ -64,9 +83,7 @@
 }
 
 /* colore dei box in alto */
-.color-blu {
-  background-color: var(--bg-box-blu);
-}
+
 /* * /box in altro di presentazione* */
 
 /* * box planning* */
@@ -77,20 +94,12 @@
   gap: 30px;
 }
 
-.color-white {
-  background-color: var(--bg-box-white);
-}
-
 /* * /box planning* */
 
 /* * section testimonial* */
 
 .container-testimonial {
   padding: 70px 30px 112px 30px;
-}
-
-.color-purple {
-  background-color: var(--bg-box-purple);
 }
 
 /* * /section testimonial* */
@@ -115,6 +124,12 @@
 }
 
 /* * /section about us */
+
+/* *get started */
+.container-getstarted {
+  padding: 60px 35px;
+}
+/* * /get started */
 
 /* **** /main **** */
 
@@ -150,6 +165,14 @@
   }
   /* * /presentazione */
 
+  /* * section testionials */
+
+  .container-testimonial .color-purple {
+    display: flex;
+  }
+
+  /* * section testionials */
+
   /* * section benefits */
   .container-benefits .box {
     width: calc((100% - 30px) / 2);
@@ -161,6 +184,12 @@
     display: flex;
   }
   /* * /section about us */
+
+  /* * about us */
+  .container-getstarted {
+    padding: 60px 120px;
+    /* * /about us */
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -175,8 +204,19 @@
     width: calc((100% - 60px) / 3);
   }
   /* * /section benefits */
+
+  /* * planning */
+  .container-planning {
+    padding: 130px 130px 60px 130px;
+  }
+  /* * /planning */
+
+  /* * about us */
+  .container-getstarted {
+    padding: 60px 285px;
+    /* * /about us */
+  }
 }
-/* * /presentazione */
 
 /* *planning */
 @media screen and (max-width: 768px) {
@@ -185,23 +225,6 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .container-planning {
-    padding: 130px 130px 60px 130px;
-  }
-}
 /* * /planning */
-
-/* * section testionials */
-@media screen and (min-width: 576px) {
-  .container-testimonial .color-purple {
-    display: flex;
-  }
-}
-/* * section testionials */
-
-/* * section benefits */
-
-/* * /section benefits */
 
 /* ** /media main ** */
