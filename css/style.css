@@ -46,6 +46,11 @@ body {
 .color-white {
   background-color: var(--bg-box-white);
 }
+
+.txt-color-white {
+  color: var(--default-color-white);
+}
+
 .color-purple {
   background-color: var(--bg-box-purple);
 }
@@ -62,6 +67,12 @@ body {
   border-radius: 40px;
   padding: 10px 16px;
   font-size: 16px;
+}
+
+.round-button {
+  border: none;
+  border-radius: 40px;
+  padding: 18px 18px;
 }
 
 /* **common** */
@@ -159,8 +170,57 @@ header {
 
 /* caratteristiche conteniore planning */
 .container-planning {
-  padding: 62px 30px;
-  gap: 30px;
+  padding: 64px 30px;
+}
+
+/* l'immagine prende la larghezza di tutto il contenitore */
+.container-planning img {
+  width: 100%;
+}
+
+/* spaziatura tra le righe del paragrafo */
+.container-planning p {
+  line-height: 30px;
+}
+
+/* nel primo box l'immagine ha un distanziamento inferiore di 80px */
+.container-planning .planning-box1 img {
+  margin-bottom: 80px;
+}
+
+/* nel primmo box il titolo ha questo agine inferiroe e queste dimensioni */
+.container-planning .planning-box1 h2 {
+  margin-bottom: 56px;
+  font-size: 34px;
+}
+
+/* nel primo box il paragrafo ha un mmargine inferiore */
+.container-planning .planning-box1 p {
+  margin-bottom: 20px;
+}
+
+/* nel secondo box l'imagine ha questo  margine inferiore  */
+.container-planning .planning-box2 img {
+  margin-bottom: 22px;
+}
+
+/* nel secondo box il titolo ha un margine inferiore e ha queste dimennsioni */
+.container-planning .planning-box2 h3 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* nel secondo box il paragrafo ha questo margine inferiore */
+.container-planning .planning-box2 p {
+  margin-bottom: 36px;
+  font-size: 18px;
+}
+
+/* il bottone nel secondo box ha queste caratteristiche */
+.container-planning .planning-box2 .round-button {
+  background-color: var(--bg-box-purple);
+  width: 50px;
+  height: 50px;
 }
 
 /* * /box planning* */
