@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
 /* *** varibles *** */
 :root {
   --default-color-white: #ffffff;
@@ -13,6 +17,7 @@
   --bg-box-blu: #b5ddff;
   --bg-box-white: #ffffff;
   --bg-box-purple: #9792e4;
+
   --default-box-width: calc((100% - 50px) / 3);
 }
 /* **common** */
