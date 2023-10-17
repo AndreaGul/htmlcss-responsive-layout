@@ -90,7 +90,7 @@ da implentare*/
 .container-presentazione {
   flex-wrap: wrap;
   gap: 25px;
-  padding: 50px 30px 80px 30px;
+  padding: 50px 32px 80px 32px;
 }
 
 /* * /box in altro di presentazione* */
