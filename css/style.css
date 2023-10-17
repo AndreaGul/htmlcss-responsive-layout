@@ -142,7 +142,7 @@ header {
 .container-presentazione img {
   width: 100%;
   display: block;
-  margin-bottom: -32px;
+  margin-bottom: -30px;
 }
 
 /* * /box di presentazione* */
@@ -243,6 +243,11 @@ header {
   .container-presentazione .box1 {
     width: calc((var(--default-box-width) * 2 + 25px));
   }
+
+  /* rdimensioni le dimensioni dell'immagine rispetto al contenitore */
+  .container-presentazione img {
+    width: 50%;
+  }
   /* * /presentazione */
 
   /* * section testionials */
@@ -295,6 +300,25 @@ header {
   /* da 992px gli eletni in box1 diventano flex */
   .container-presentazione .box1 {
     display: flex;
+  }
+
+  /* grandezza del contenuto del box a sinistra nel box1 */
+  .box1-left {
+    width: 50%;
+  }
+
+  /* grandezza del bex a destra nel box1 e lo rendiamo relativo cosi da poter posizionare l'imagine in basso */
+  .box1-right {
+    width: 50%;
+    position: relative;
+  }
+
+  /* posizione dell'immagine rispetto al contenitore e la sua grandezza */
+  .container-presentazione img {
+    width: 75%;
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
   }
   /* * /presentazione */
 
