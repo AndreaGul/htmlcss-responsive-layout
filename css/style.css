@@ -102,7 +102,6 @@ header {
 
 /* caratteristiche conteniore planning */
 .container-planning {
-  background-color: #9792e4;
   padding: 62px 30px;
   gap: 30px;
 }
@@ -122,7 +121,6 @@ header {
 
 /* caratteristiche contenitore benefits */
 .container-benefits {
-  background-color: var(--bg-box-purple);
   padding: 70px 30px;
 }
 
