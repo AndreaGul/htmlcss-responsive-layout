@@ -402,8 +402,19 @@ header {
   /* dopo i 768px gli elementi in testimonial che sono color purple diiventa di tipo flex */
   .container-testimonial .color-purple {
     display: flex;
+    align-items: center;
+    text-align: left;
   }
 
+  /* dimensione contenitore di sinistra dopo i 768px */
+  .box-testi-left {
+    width: 30%;
+  }
+
+  /* dimensione contenitore di destra dopo i 768px */
+  .box-testi-right {
+    width: 70%;
+  }
   /* * section testionials */
 
   /* * section benefits */
