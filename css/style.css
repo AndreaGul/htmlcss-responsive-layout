@@ -145,6 +145,13 @@ header {
   margin-bottom: -30px;
 }
 
+/* caratteristiche icone sopra ai titoli */
+.container-presentazione .car-icon {
+  margin-bottom: 30px;
+  font-size: 100px;
+  color: var(--clr-blu-txt);
+}
+
 /* * /box di presentazione* */
 
 /* * box planning* */
