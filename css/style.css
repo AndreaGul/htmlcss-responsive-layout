@@ -85,18 +85,19 @@ da implentare*/
 }
 
 /* *box in alto di presentazione* */
+
+/* caratteriistiche contenitore presentazione */
 .container-presentazione {
   flex-wrap: wrap;
   gap: 25px;
   padding: 50px 30px 80px 30px;
 }
 
-/* colore dei box in alto */
-
 /* * /box in altro di presentazione* */
 
 /* * box planning* */
 
+/* caratteristiche conteniore planning */
 .container-planning {
   background-color: #9792e4;
   padding: 62px 30px;
@@ -107,6 +108,7 @@ da implentare*/
 
 /* * section testimonial* */
 
+/* caratteristiche contenitore testimonial */
 .container-testimonial {
   padding: 70px 30px 112px 30px;
 }
@@ -115,19 +117,17 @@ da implentare*/
 
 /* * section benefits */
 
+/* caratteristiche contenitore benefits */
 .container-benefits {
   background-color: var(--bg-box-purple);
   padding: 70px 30px;
-}
-
-.titolo-benefits {
-  text-align: center;
 }
 
 /* * /section benefits */
 
 /* * section about us */
 
+/* caratteriistiche contenitore about us */
 .container-aboutus {
   padding: 90px 30px 80px 30px;
 }
@@ -135,6 +135,7 @@ da implentare*/
 /* * /section about us */
 
 /* *get started */
+/* caratteristiiche container get started */
 .container-getstarted {
   padding: 60px 35px;
 }
@@ -144,7 +145,7 @@ da implentare*/
 
 /* ** media header ** */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .navbar .hamburger {
     display: none;
   }
@@ -153,7 +154,7 @@ da implentare*/
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .navbar .links-button {
     display: none;
   }
@@ -163,7 +164,7 @@ da implentare*/
 
 /* ** media main ** */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   /* *presentazione */
   .container-presentazione .box {
     width: var(--default-box-width);
@@ -201,7 +202,7 @@ da implentare*/
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   /* * presentazione */
   .container-presentazione .box1 {
     display: flex;
@@ -228,7 +229,7 @@ da implentare*/
 }
 
 /* *planning */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .container-planning {
     flex-wrap: wrap;
   }
