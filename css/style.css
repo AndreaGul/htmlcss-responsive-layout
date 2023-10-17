@@ -146,6 +146,7 @@ da implentare*/
 /* ** media header ** */
 
 @media screen and (min-width: 992px) {
+  /* da 992px in poi hammburge scompare e appare la barra con tutti i link */
   .navbar .hamburger {
     display: none;
   }
@@ -155,6 +156,7 @@ da implentare*/
 }
 
 @media screen and (max-width: 992px) {
+  /* da 0 a 992px la barra con i link non è visibile */
   .navbar .links-button {
     display: none;
   }
