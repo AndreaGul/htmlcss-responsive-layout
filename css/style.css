@@ -21,15 +21,18 @@
 } 
 da implentare*/
 
+/* posizioniono gli lementi in modo affiancato */
 .row {
   display: flex;
 }
 
+/* faccio andare a capo gli elemnti flex e li spazio di 30px */
 .container {
   flex-wrap: wrap;
   gap: 30px;
 }
 
+/* caratteristiche classi colore */
 .color-blu {
   background-color: var(--bg-box-blu);
 }
@@ -39,7 +42,9 @@ da implentare*/
 .color-purple {
   background-color: var(--bg-box-purple);
 }
+/* /caratteristiche classi colore */
 
+/* allineo il testo centralmente */
 .txt-center {
   text-align: center;
 }
@@ -48,6 +53,7 @@ da implentare*/
 
 /****** header ******/
 
+/* caratteristiche navbar */
 .navbar {
   background-color: #0084fd;
   justify-content: space-between;
@@ -55,6 +61,7 @@ da implentare*/
   padding: 15px 30px;
 }
 
+/* caratteristiche hamburger */
 .navbar .hamburger {
   color: var(--default-color-white);
   font-size: 30px;
@@ -65,11 +72,13 @@ da implentare*/
 /* **** main **** */
 
 /* * debug* */
+/* altezza di debug box */
 .debug .box {
   height: 360px;
 }
 /* * /debug* */
 
+/* box contenitore standard */
 .box {
   width: 100%;
   padding: 30px 25px;
