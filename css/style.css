@@ -216,37 +216,43 @@ da implentare*/
 
 @media screen and (min-width: 992px) {
   /* * presentazione */
+
+  /* da 992px gli eletni in box1 diventano flex */
   .container-presentazione .box1 {
     display: flex;
   }
   /* * /presentazione */
 
   /* * section benefits */
+
+  /* da 992px i conteniore box si prendono sempre 1/3 dello spazio ma hano un gap maggiore */
   .container-benefits .box {
     width: calc((100% - 60px) / 3);
   }
   /* * /section benefits */
 
   /* * planning */
+  /* caratteristiche conteniore dopo i 992px */
   .container-planning {
     padding: 130px 130px 60px 130px;
   }
   /* * /planning */
 
   /* * about us */
+  /* caratteristiche conteniore dopo i 992px */
   .container-getstarted {
     padding: 60px 285px;
     /* * /about us */
   }
 }
 
-/* *planning */
 @media screen and (max-width: 992px) {
+  /* *planning */
+  /* fino a 992px container-planning fa andare a capo gli elementi che occupano più del loro spazio */
   .container-planning {
     flex-wrap: wrap;
   }
+  /* * /planning */
 }
-
-/* * /planning */
 
 /* ** /media main ** */
