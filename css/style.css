@@ -15,6 +15,7 @@ body {
   --default-color-white: #ffffff;
   --clr-blu-txt: #0084fd;
   --clr-grey-txt: #5a6e7f;
+  --clr-purple-txt: #9792e4;
   --bg-header: #0084fd;
   --bg-box-blu: #b5ddff;
   --bg-box-white: #ffffff;
@@ -71,10 +72,29 @@ body {
 
 .round-button {
   border: none;
-  border-radius: 40px;
+  border-radius: 50%;
   padding: 18px 18px;
 }
 
+/* standard dimensione img */
+.default-width-img {
+  width: 100%;
+}
+
+/* caratteristiche di default dell'immagine di profilo */
+.img-profilo-default {
+  background-image: url(../img/testimonial1.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.default-line-height {
+  line-height: 30px;
+}
 /* **common** */
 
 /****** header ******/
@@ -178,11 +198,6 @@ header {
   width: 100%;
 }
 
-/* spaziatura tra le righe del paragrafo */
-.container-planning p {
-  line-height: 30px;
-}
-
 /* nel primo box l'immagine ha un distanziamento inferiore di 80px */
 .container-planning .planning-box1 img {
   margin-bottom: 80px;
@@ -231,6 +246,51 @@ header {
 .container-testimonial {
   padding: 70px 30px 112px 30px;
 }
+
+/* margine superiore alla sezione di testo in alto */
+.top-testimonials {
+  margin-bottom: 25px;
+}
+
+/* caratteristiche titolo nella sezione di testo in alto */
+.top-testimonials h2 {
+  margin: 40px 0;
+  color: var(--clr-purple-txt);
+}
+
+/* aggiungiammo in magine al di sotto dell'immagine */
+.container-testimonial .img-profilo-default {
+  margin-bottom: 25px;
+}
+
+/* bacckground image che rappresenta l'imaagine di profilo */
+.container-testimonial .img-testimonial1 {
+  background-image: url(../img/testimonial1.jpg);
+}
+
+.container-testimonial .img-testimonial2 {
+  background-image: url(../img/testimonial2.jpg);
+}
+.container-testimonial .img-testimonial3 {
+  background-image: url(../img/testimonial3.jpg);
+}
+/* /bacckground image che rappresenta l'imaagine di profilo */
+
+/* grandezza fonts */
+.container-testimonial h2 {
+  font-size: 48px;
+}
+
+.container-testimonial p {
+  font-size: 20px;
+}
+
+/* aggiunta mmargine superiore */
+.container-testimonial h5 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+/* /grandezza fonts */
 
 /* * /section testimonial* */
 
