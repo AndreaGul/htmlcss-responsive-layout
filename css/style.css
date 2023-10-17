@@ -159,6 +159,16 @@ header {
   .navbar .links-button {
     display: block;
   }
+
+  /* larghezza degli elementi nel contenitore */
+  .abautus-left {
+    width: 70%;
+  }
+
+  .abautus-right {
+    width: 30%;
+  }
+  /* /larghezza degli elementi nel contenitore */
 }
 
 @media screen and (max-width: 992px) {
@@ -209,6 +219,16 @@ header {
   .container-aboutus {
     display: flex;
   }
+
+  /* larghezza degli elementi nel contenitore */
+  .abautus-left {
+    width: 60%;
+  }
+
+  .abautus-right {
+    width: 40%;
+  }
+  /* /larghezza degli elementi nel contenitore */
   /* * /section about us */
 
   /* * get started */
