@@ -13,6 +13,8 @@ body {
 /* *** varibles *** */
 :root {
   --default-color-white: #ffffff;
+  --clr-blu-txt: #0084fd;
+  --clr-grey-txt: #5a6e7f;
   --bg-header: #0084fd;
   --bg-box-blu: #b5ddff;
   --bg-box-white: #ffffff;
@@ -83,6 +85,7 @@ header {
   font-size: 30px;
 }
 
+/* caratterisithce link nella navbar */
 .links-button a {
   text-decoration: none;
   color: var(--default-color-white);
@@ -106,7 +109,7 @@ header {
   padding: 30px 25px;
 }
 
-/* *box in alto di presentazione* */
+/* *box di presentazione* */
 
 /* caratteriistiche contenitore presentazione */
 .container-presentazione {
@@ -115,7 +118,34 @@ header {
   padding: 50px 32px 80px 32px;
 }
 
-/* * /box in altro di presentazione* */
+/* colore del titolo e spaziatura inferiore rispetto agli altri elementi */
+.container-presentazione h3 {
+  color: var(--clr-blu-txt);
+  margin-bottom: 35px;
+}
+
+/* colore del paragrafo e la sua pesantezza */
+.container-presentazione p {
+  color: var(--clr-grey-txt);
+  font-weight: 700;
+}
+
+/* caratteristiche del bottone app store */
+.container-presentazione .default-button {
+  padding: 14px 48px;
+  margin: 40px 0;
+  color: var(--default-color-white);
+  background-color: var(--bg-header);
+}
+
+/* caratteristiche dell'immagine */
+.container-presentazione img {
+  width: 100%;
+  display: block;
+  margin-bottom: -32px;
+}
+
+/* * /box di presentazione* */
 
 /* * box planning* */
 
