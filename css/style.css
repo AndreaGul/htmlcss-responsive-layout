@@ -196,12 +196,12 @@ header {
 
 /* nel primo box il paragrafo ha un mmargine inferiore */
 .container-planning .planning-box1 p {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 /* nel secondo box l'imagine ha questo  margine inferiore  */
 .container-planning .planning-box2 img {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 /* nel secondo box il titolo ha un margine inferiore e ha queste dimennsioni */
@@ -317,6 +317,23 @@ header {
     width: 50%;
   }
   /* * /presentazione */
+
+  /* * planning */
+
+  .container-planning {
+    padding: 130px 30px 62px 30px;
+  }
+
+  .container-planning .planning-box1 {
+    padding-right: 30px;
+  }
+
+  /* nel primo box l'immagine ha un distanziamento inferiore di 80px */
+  .container-planning .planning-box1 img {
+    margin-bottom: 144px;
+  }
+
+  /* * /planning */
 
   /* * section testionials */
 
