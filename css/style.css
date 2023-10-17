@@ -9,6 +9,7 @@
 /* *** varibles *** */
 :root {
   --default-color-white: #ffffff;
+  --bg-header: #0084fd;
   --bg-box-blu: #b5ddff;
   --bg-box-white: #ffffff;
   --bg-box-purple: #9792e4;
@@ -16,10 +17,9 @@
 }
 /* **common** */
 
-/* .container-max{
-  width: 992px;
-} 
-da implentare*/
+.container-max {
+  margin: 0 auto;
+}
 
 /* posizioniono gli lementi in modo affiancato */
 .row {
@@ -53,9 +53,12 @@ da implentare*/
 
 /****** header ******/
 
+header {
+  background-color: var(--bg-header);
+}
+
 /* caratteristiche navbar */
 .navbar {
-  background-color: #0084fd;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
@@ -146,6 +149,10 @@ da implentare*/
 /* ** media header ** */
 
 @media screen and (min-width: 992px) {
+  .container-max {
+    width: 1140px;
+  }
+
   /* da 992px in poi hammburge scompare e appare la barra con tutti i link */
   .navbar .hamburger {
     display: none;
