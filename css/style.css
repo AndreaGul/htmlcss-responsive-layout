@@ -168,10 +168,13 @@ da implentare*/
 
 @media screen and (min-width: 768px) {
   /* *presentazione */
+
+  /* dopo 768px il box ha la largezza di 1/3 dell pagina */
   .container-presentazione .box {
     width: var(--default-box-width);
   }
 
+  /* il box1 è più grande degli altri quindi gli do 22 la largezza e aggiunto il gap assobito nel calcolo precedente */
   .container-presentazione .box1 {
     width: calc((var(--default-box-width) * 2 + 25px));
   }
@@ -179,6 +182,7 @@ da implentare*/
 
   /* * section testionials */
 
+  /* dopo i 768px gli elementi in testimonial che sono color purple diiventa di tipo flex */
   .container-testimonial .color-purple {
     display: flex;
   }
@@ -186,21 +190,27 @@ da implentare*/
   /* * section testionials */
 
   /* * section benefits */
+
+  /* da 768px i box in benefits sono larghi la meta della pagina */
   .container-benefits .box {
     width: calc((100% - 30px) / 2);
   }
   /* * /section benefits */
 
   /* *section about us */
+
+  /* dopo 768px gli elementi in about us sono di tipo flex */
   .container-aboutus {
     display: flex;
   }
   /* * /section about us */
 
-  /* * about us */
+  /* * get started */
+
+  /* caratteriistiche contenitore get started dopo i 768px */
   .container-getstarted {
     padding: 60px 120px;
-    /* * /about us */
+    /* * /get started */
   }
 }
 
