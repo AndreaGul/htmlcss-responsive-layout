@@ -147,8 +147,9 @@ header {
 /* ** media header ** */
 
 @media screen and (min-width: 992px) {
+  /* dopo 992px il contenitore assume la larghezza massima di 1140px */
   .container-max {
-    width: 1140px;
+    max-width: 1140px;
   }
 
   /* da 992px in poi hammburge scompare e appare la barra con tutti i link */
