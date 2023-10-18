@@ -463,6 +463,17 @@ header {
 
 /* **** /main **** */
 
+/* *** footer ** */
+footer {
+  background-color: #333333;
+}
+
+footer .container-max p {
+  padding: 30px 30px;
+}
+
+/* *** /footer ** */
+
 /* ** media header ** */
 
 @media screen and (min-width: 992px) {
@@ -590,6 +601,15 @@ header {
   /* * /section about us */
 
   /* * get started */
+
+  /* ***media footer ****/
+
+  /* fontainer del footer */
+  footer .container-footer {
+    width: 420px;
+  }
+
+  /* *** /media footer ****/
 }
 
 @media screen and (min-width: 992px) {
