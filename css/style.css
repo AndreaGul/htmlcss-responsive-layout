@@ -427,8 +427,38 @@ header {
 /* *get started */
 /* caratteristiiche container get started */
 .container-getstarted {
-  padding: 60px 35px;
+  padding: 60px 0;
 }
+
+/* il primmmo p ha un colore diverso */
+.container-getstarted p:nth-child(1) {
+  color: #cbc9f1;
+}
+
+/* grandezza h5 */
+.container-getstarted h5 {
+  font-size: 48px;
+}
+
+/* grandezza h2 colore e margini sopra e sotto */
+.container-getstarted h2 {
+  font-size: 96px;
+  margin: 30px 0;
+  color: #fdc15f;
+}
+
+/* grandezza p e margini */
+.container-getstarted p {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+/*  caratteristiche bottone */
+.container-getstarted .default-button {
+  color: var(--clr-purple-txt);
+  padding: 30px 80px;
+}
+
 /* * /get started */
 
 /* **** /main **** */
