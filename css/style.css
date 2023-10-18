@@ -409,6 +409,11 @@ header {
     margin-bottom: 144px;
   }
 
+  /* ingrandire il font */
+  .container-planning .planning-box1 h2 {
+    font-size: 60px;
+  }
+
   /* * /planning */
 
   /* * section testionials */
@@ -524,6 +529,10 @@ header {
     padding: 0 50px;
   }
 
+  /* ingrandire il font */
+  .container-planning .planning-box1 h2 {
+    font-size: 35px;
+  }
   /* * /planning */
 
   /* * section benefits */
