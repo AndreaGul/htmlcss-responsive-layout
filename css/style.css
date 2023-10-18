@@ -60,6 +60,10 @@ body {
 .color-purple {
   background-color: var(--bg-box-purple);
 }
+
+.txt-color-purple {
+  color: var(--bg-box-purple);
+}
 /* /caratteristiche classi colore */
 
 /* allineo il testo centralmente */
@@ -313,6 +317,40 @@ header {
 /* caratteristiche contenitore benefits */
 .container-benefits {
   padding: 70px 30px;
+}
+
+/* caratteristihc edl titolo */
+.container-benefits h2 {
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+
+/* dimensioni del numero */
+.container-benefits .number-size {
+  font-size: 72px;
+}
+
+/* dimensione standard del titolo */
+.container-benefits h5 {
+  font-size: 24px;
+}
+
+/* il secondo elemento h5 ha un margine sopra e sotto */
+.container-benefits h5:nth-child(2) {
+  margin: 30px 0;
+}
+
+/*  colore del paragrafo */
+.container-benefits p {
+  color: #929292;
+}
+
+/*  caratterisitche del bottone */
+.container-benefits .default-button {
+  background-color: var(--bg-box-purple);
+  color: var(--default-color-white);
+  margin-top: 25px;
+  padding: 14px 50px;
 }
 
 /* * /section benefits */
