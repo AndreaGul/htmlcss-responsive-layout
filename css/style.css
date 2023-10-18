@@ -362,34 +362,41 @@ header {
   padding: 90px 30px 80px 30px;
 }
 
+/* caratteristiche titolo a sinistra */
 .container-aboutus .aboutus-left h2 {
   margin-bottom: 50px;
   font-size: 72px;
 }
 
+/* aratteristiche pragrafo */
 .container-aboutus .aboutus-left p {
   font-size: 20px;
   line-height: 45px;
   margin-bottom: 50px;
 }
 
+/* container a destra che permette il posizonamento corretto delle virgolette */
 .about-right-container {
   position: relative;
   display: inline-block;
 }
 
+/* dimensioni contenitore immagine */
 .aboutus-right .about-img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   overflow: hidden;
 }
+
+/* dimensioni immagine */
 .aboutus-right .about-img img {
   width: 100%;
   height: 100%;
   display: block;
 }
 
+/* caratteritche delle virgolette e la loro posizione */
 .about-right-container i {
   font-size: 4.75rem;
   position: absolute;
@@ -398,16 +405,19 @@ header {
   z-index: 10;
 }
 
+/* dimensioni e spaziatura titolo sootto immagine */
 .aboutus-right h5 {
   font-size: 30px;
   margin: 32px 0;
 }
 
+/* colore del bottone */
 .aboutus-right .default-button {
   background-color: var(--bg-box-purple);
   color: var(--default-color-white);
 }
 
+/* spaziatura icona a destra */
 .aboutus-right .default-button i {
   margin-right: 12px;
 }
@@ -550,12 +560,6 @@ header {
   /* * /section about us */
 
   /* * get started */
-
-  /* caratteriistiche contenitore get started dopo i 768px */
-  .container-getstarted {
-    padding: 60px 120px;
-    /* * /get started */
-  }
 }
 
 @media screen and (min-width: 992px) {
