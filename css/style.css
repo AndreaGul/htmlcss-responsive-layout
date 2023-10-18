@@ -34,6 +34,11 @@ body {
   display: flex;
 }
 
+/* posiziono gli elementi centralmente sull'asse orizontale */
+.items-center {
+  align-items: center;
+}
+
 /* faccio andare a capo gli elemnti flex e li spazio di 30px */
 .container {
   flex-wrap: wrap;
@@ -114,6 +119,11 @@ header {
 .navbar .hamburger {
   color: var(--default-color-white);
   font-size: 30px;
+}
+
+/* levo i puntini dalla lista */
+.links-button ul {
+  list-style-type: none;
 }
 
 /* caratterisithce link nella navbar */
